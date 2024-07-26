@@ -8,15 +8,21 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --first-color: hsl(238, 100%, 70%);
-  --first-gradient: linear-gradient(90deg,
-                  hsl(243, 96%, 54%),
-                  hsl(296, 78%, 53%));
-  --second-gradient: linear-gradient(90deg,
-                  hsl(192, 94%, 49%),
-                  hsl(224, 98%, 51%));
-  --third-gradient: linear-gradient(90deg,
-                  hsl(25, 96%, 55%),
-                  hsl(34, 93%, 53%));
+  --first-gradient: linear-gradient(
+    90deg,
+    hsl(243, 96%, 54%),
+    hsl(296, 78%, 53%)
+  );
+  --second-gradient: linear-gradient(
+    90deg,
+    hsl(192, 94%, 49%),
+    hsl(224, 98%, 51%)
+  );
+  --third-gradient: linear-gradient(
+    90deg,
+    hsl(25, 96%, 55%),
+    hsl(34, 93%, 53%)
+  );
   --white-color: hsl(0, 0%, 100%);
   --text-color: hsl(0, 0%, 75%);
   --text-color-light: hsl(0, 0%, 55%);
@@ -32,8 +38,8 @@
   --big-font-size: 1.5rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
 
   /*========== Font weight ==========*/
   --font-regular: 400;
@@ -53,7 +59,7 @@
     --h1-font-size: 2.25rem;
     --h2-font-size: 1.5rem;
     --normal-font-size: 1rem;
-    --small-font-size: .875rem;
+    --small-font-size: 0.875rem;
   }
 }
 
@@ -86,7 +92,10 @@ button {
   outline: none;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   color: var(--white-color);
 }
 
@@ -141,57 +150,39 @@ img {
 
 /*=============== HEADER & NAV ===============*/
 
-
 /* Show menu */
-
 
 /* Add blur header */
 
-
 /* Active link */
-
 
 /*=============== HOME ===============*/
 
-
 /*=============== BUTTON ===============*/
-
 
 /*=============== TRAVEL ===============*/
 
-
 /* Swiper class */
-
 
 /* Swiper animation */
 
-
 /*=============== EXPLORE ===============*/
-
 
 /*=============== HISTORY ===============*/
 
-
 /*=============== CONTACT ===============*/
-
 
 /*=============== FOOTER ===============*/
 
-
 /*=============== SCROLL BAR ===============*/
-
 
 /*=============== SCROLL UP ===============*/
 
-
 /* Show Scroll Up */
-
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
-
 /* For medium devices */
-
 
 /* For large devices */
