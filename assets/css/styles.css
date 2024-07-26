@@ -178,6 +178,14 @@ img {
   width: 1.5rem;
 }
 
+.nav__toggle,
+.nav__close {
+  display: inline-flex;
+  font-size: 1.5rem;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
 /* Show menu */
 
 /* Add blur header */
