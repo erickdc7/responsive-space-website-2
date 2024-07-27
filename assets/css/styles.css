@@ -540,6 +540,14 @@ img {
   row-gap: 1rem;
 }
 
+.contact__input {
+  width: 100%;
+  background-color: var(--body-color);
+  border: 2px solid var(--border-color);
+  padding: 1rem;
+  color: var(--white-color);
+}
+
 /*=============== FOOTER ===============*/
 
 /*=============== SCROLL BAR ===============*/
