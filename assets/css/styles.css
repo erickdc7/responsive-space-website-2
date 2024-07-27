@@ -619,6 +619,13 @@ img {
   box-shadow: 0 8px 32px hsla(25, 96%, 55%, 0.6);
 }
 
+.footer__copy {
+  text-align: center;
+  z-index: var(--z-tooltip);
+  color: var(--white-color);
+  font-size: var(--small-font-size);
+}
+
 /*=============== SCROLL BAR ===============*/
 
 /*=============== SCROLL UP ===============*/
