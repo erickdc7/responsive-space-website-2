@@ -189,7 +189,7 @@ img {
 .nav__menu {
   position: fixed;
   top: 0;
-  right: 0;
+  right: -100%;
   background-color: hsla(238, 100%, 6%, 0.5);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
