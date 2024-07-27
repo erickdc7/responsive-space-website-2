@@ -186,6 +186,19 @@ img {
   cursor: pointer;
 }
 
+.nav__menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: hsla(238, 100%, 6%, 0.5);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  width: 80%;
+  height: 100%;
+  padding: 8rem 3.5rem 3.5rem;
+  transition: right 0.4s;
+}
+
 /* Show menu */
 
 /* Add blur header */
