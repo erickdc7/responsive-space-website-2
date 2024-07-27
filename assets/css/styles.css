@@ -535,6 +535,11 @@ img {
   padding-bottom: 2rem;
 }
 
+.contact__form {
+  display: grid;
+  row-gap: 1rem;
+}
+
 /*=============== FOOTER ===============*/
 
 /*=============== SCROLL BAR ===============*/
