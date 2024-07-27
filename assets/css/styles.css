@@ -580,6 +580,16 @@ img {
   right: 0;
 }
 
+.footer__content {
+  row-gap: 2.5rem;
+}
+
+.footer__links {
+  display: flex;
+  column-gap: 2rem;
+  justify-content: center;
+}
+
 /*=============== SCROLL BAR ===============*/
 
 /*=============== SCROLL UP ===============*/
