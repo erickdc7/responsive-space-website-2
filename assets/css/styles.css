@@ -606,6 +606,19 @@ img {
   justify-content: center;
 }
 
+.footer__social-link {
+  display: inline-flex;
+  background: var(--third-gradient);
+  color: var(--white-color);
+  font-size: 1.5rem;
+  padding: 0.25rem;
+  transition: box-shadow 0.4s;
+}
+
+.footer__social-link:hover {
+  box-shadow: 0 8px 32px hsla(25, 96%, 55%, 0.6);
+}
+
 /*=============== SCROLL BAR ===============*/
 
 /*=============== SCROLL UP ===============*/
