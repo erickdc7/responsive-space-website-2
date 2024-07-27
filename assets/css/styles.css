@@ -216,6 +216,23 @@ img {
   color: var(--first-color);
 }
 
+.nav__img,
+.nav__close {
+  position: absolute;
+}
+
+.nav__close {
+  top: 1rem;
+  right: 1.5rem;
+}
+
+.nav__img {
+  width: 300px;
+  right: -3rem;
+  bottom: 5rem;
+  z-index: -1;
+}
+
 /* Show menu */
 
 /* Add blur header */
