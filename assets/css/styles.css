@@ -548,6 +548,10 @@ img {
   color: var(--white-color);
 }
 
+.contact__form button {
+  cursor: pointer;
+}
+
 /*=============== FOOTER ===============*/
 
 /*=============== SCROLL BAR ===============*/
