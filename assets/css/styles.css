@@ -531,6 +531,9 @@ img {
 }
 
 /*=============== CONTACT ===============*/
+.contact__container {
+  padding-bottom: 2rem;
+}
 
 /*=============== FOOTER ===============*/
 
