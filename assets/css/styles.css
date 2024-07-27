@@ -590,6 +590,12 @@ img {
   justify-content: center;
 }
 
+.footer__link {
+  color: var(--white-color);
+  font-weight: var(--font-semi-bold);
+  transition: color 0.4s;
+}
+
 /*=============== SCROLL BAR ===============*/
 
 /*=============== SCROLL UP ===============*/
