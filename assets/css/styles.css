@@ -563,6 +563,23 @@ img {
   padding-block: 2rem;
 }
 
+.footer__planet-1,
+.footer__planet-2 {
+  position: absolute;
+}
+
+.footer__planet-1 {
+  width: 200px;
+  left: -6.5rem;
+  bottom: -4.5rem;
+}
+
+.footer__planet-2 {
+  width: 50px;
+  top: 5.5rem;
+  right: 0;
+}
+
 /*=============== SCROLL BAR ===============*/
 
 /*=============== SCROLL UP ===============*/
