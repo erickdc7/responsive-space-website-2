@@ -239,22 +239,296 @@ img {
 }
 
 /* Add blur header */
+.blur-header::after {
+  content: "";
+  position: absolute;
+  width: 1000%;
+  height: 100%;
+  background-color: hsla(238, 100%, 6%, 0.5);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 
 /* Active link */
 
 /*=============== HOME ===============*/
+.home {
+  position: relative;
+}
+
+.home__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.home__container {
+  position: relative;
+  row-gap: 3rem;
+  padding-top: 3rem;
+}
+
+.home__data {
+  position: relative;
+  text-align: center;
+}
+
+.home__title span {
+  display: block;
+}
+
+.home__title {
+  font-size: var(--biggest-font-size);
+  font-family: var(--second-font);
+  font-weight: initial;
+  margin-bottom: 1.5rem;
+}
+
+.home__title span:nth-child(1) {
+  background: var(--third-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.home__title span:nth-child(3) {
+  background: var(--second-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.home__ovni {
+  width: 50px;
+  position: absolute;
+  top: 4rem;
+  right: -1rem;
+  transform: rotateY(180deg);
+}
+
+.home__img {
+  width: 320px;
+  justify-self: center;
+}
 
 /*=============== BUTTON ===============*/
+.button {
+  display: inline-flex;
+  justify-content: center;
+  background: var(--first-gradient);
+  color: var(--white-color);
+  font-weight: var(--font-semi-bold);
+  padding: 1rem 2rem;
+  transition: box-shadow 0.4s;
+}
+
+.button:hover {
+  box-shadow: 0 8px 32px hsla(243, 100%, 54%, 0.4);
+}
+
+.button__yellow {
+  background: var(--third-gradient);
+}
+
+.button__yellow:hover {
+  box-shadow: 0 8px 32px hsla(25, 96%, 55%, 0.4);
+}
 
 /*=============== TRAVEL ===============*/
+.travel {
+  position: relative;
+}
+
+.travel__lines {
+  max-width: initial;
+  width: 550px;
+  position: absolute;
+  top: 4rem;
+  left: 0;
+}
+
+.travel__container {
+  position: relative;
+  background-color: hsla(238, 50%, 20%, 0.4);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  padding: 2rem 2rem 5rem;
+}
+
+.travel__swiper {
+  padding-top: 3rem;
+}
+
+.travel__card {
+  position: relative;
+  border: 2px solid;
+  border-image: var(--second-gradient) 1;
+  background: linear-gradient(hsla(243, 98%, 51%, 0.3), transparent 50%);
+  padding: 9.25rem 1rem 3rem;
+  text-align: center;
+}
+
+.travel__img {
+  width: 180px;
+  position: absolute;
+  top: -3rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transform: rotate(-90deg);
+  transition: transform 0.6s;
+}
+
+.travel__title {
+  font-size: var(--h2-font-size);
+}
+
+.travel__info {
+  display: block;
+  color: var(--first-color);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 1rem;
+}
+
+.travel__description {
+  font-size: var(--small-font-size);
+}
 
 /* Swiper class */
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 2rem;
+}
+
+.swiper-pagination-bullet {
+  width: 1rem;
+  height: 1rem;
+  opacity: 1;
+  border: 2px solid var(--border-color);
+  background: transparent;
+}
+
+.swiper-pagination-bullet-active {
+  border: 2px solid transparent;
+  background: linear-gradient(var(--body-color), var(--body-color)) padding-box,
+    linear-gradient(135deg, hsl(25, 96%, 55%) 0%, hsl(34, 93%, 53%) 100%)
+      border-box;
+  position: relative;
+}
+
+.swiper-pagination-bullet-active::after {
+  content: "";
+  position: absolute;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: var(--third-gradient);
+  border-radius: 50%;
+  inset: 0;
+  margin: auto;
+}
 
 /* Swiper animation */
+.swiper-slide-active .travel__img {
+  transform: rotate(0);
+}
 
 /*=============== EXPLORE ===============*/
+.explore__container {
+  row-gap: 3rem;
+}
+
+.explore__data {
+  position: relative;
+}
+
+.explore__planet {
+  width: 50px;
+  position: absolute;
+  top: 3rem;
+  right: 0;
+}
+
+.explore__description {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.explore__info {
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+}
+
+.explore__info-title {
+  font-size: var(--normal-font-size);
+}
+
+.explore__info-number {
+  font-size: var(--h1-font-size);
+  font-family: var(--second-font);
+  background: var(--second-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.explore__info-number span {
+  font-size: var(--small-font-size);
+}
+
+.explore__img {
+  width: 320px;
+  justify-self: center;
+}
 
 /*=============== HISTORY ===============*/
+.history {
+  position: relative;
+}
+
+.history__container {
+  position: relative;
+  row-gap: 2.5rem;
+  grid-template-columns: 265px;
+  justify-content: center;
+}
+
+.history__card {
+  text-align: center;
+}
+
+.history__img {
+  width: 150px;
+  margin: 0 auto 0.75rem;
+}
+
+.history__description span {
+  color: var(--first-color);
+  font-weight: var(--font-semi-bold);
+}
+
+.history__planet-1,
+.history__planet-2 {
+  position: absolute;
+}
+
+.history__planet-1 {
+  width: 250px;
+  top: 10rem;
+  left: -8rem;
+}
+
+.history__planet-2 {
+  width: 150px;
+  right: -5rem;
+  bottom: 6rem;
+}
 
 /*=============== CONTACT ===============*/
 
