@@ -677,6 +677,10 @@ img {
   .home__title {
     font-size: 2.5rem;
   }
+
+  .travel__container {
+    padding-inline: 1rem;
+  }
 }
 
 /* For medium devices */
