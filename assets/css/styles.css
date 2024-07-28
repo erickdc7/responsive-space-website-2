@@ -764,4 +764,9 @@ img {
   .nav__logo img {
     width: 3rem;
   }
+
+  .nav__toggle,
+  .nav__close {
+    font-size: 2rem;
+  }
 }
