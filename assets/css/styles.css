@@ -769,4 +769,9 @@ img {
   .nav__close {
     font-size: 2rem;
   }
+
+  .nav__menu {
+    width: 40%;
+    padding: 10rem 4.5rem 0;
+  }
 }
