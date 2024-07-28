@@ -756,4 +756,8 @@ img {
   .section__title {
     margin-bottom: 3rem;
   }
+
+  .nav {
+    height: calc(var(--header-height) + 2rem);
+  }
 }
