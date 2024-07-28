@@ -774,4 +774,8 @@ img {
     width: 40%;
     padding: 10rem 4.5rem 0;
   }
+
+  .nav__list {
+    row-gap: 3.5rem;
+  }
 }
