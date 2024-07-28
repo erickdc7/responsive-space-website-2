@@ -714,6 +714,10 @@ img {
   .explore__description {
     text-align: initial;
   }
+
+  .explore__info {
+    justify-content: initial;
+  }
 }
 
 /* For large devices */
