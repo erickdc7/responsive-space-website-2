@@ -718,6 +718,10 @@ img {
   .explore__info {
     justify-content: initial;
   }
+
+  .explore__img {
+    order: -1;
+  }
 }
 
 /* For large devices */
