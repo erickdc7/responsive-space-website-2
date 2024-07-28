@@ -760,4 +760,8 @@ img {
   .nav {
     height: calc(var(--header-height) + 2rem);
   }
+
+  .nav__logo img {
+    width: 3rem;
+  }
 }
