@@ -707,6 +707,10 @@ img {
     grid-template-columns: repeat(2, 350px);
     align-items: center;
   }
+
+  .home__data {
+    text-align: initial;
+  }
 }
 
 /* For large devices */
