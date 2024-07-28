@@ -673,6 +673,10 @@ img {
   .container {
     margin-inline: 1rem;
   }
+
+  .home__title {
+    font-size: 2.5rem;
+  }
 }
 
 /* For medium devices */
