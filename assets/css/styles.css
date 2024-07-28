@@ -778,4 +778,76 @@ img {
   .nav__list {
     row-gap: 3.5rem;
   }
+
+  .nav__close {
+    top: 1.7rem;
+  }
+
+  .nav__img {
+    width: 400px;
+  }
+
+  .home__container {
+    grid-template-columns: 540px 550px;
+    column-gap: 2rem;
+  }
+
+  .home__title {
+    margin-bottom: 3rem;
+  }
+
+  .home__ovni {
+    width: 100px;
+    top: 10rem;
+    right: 1.5rem;
+  }
+
+  .home__img {
+    width: 550px;
+  }
+
+  .travel__lines {
+    width: 800px;
+  }
+
+  .travel__container {
+    padding: 3.5rem 3.5rem 7.5rem;
+  }
+
+  .travel__container .section__title {
+    text-align: initial;
+  }
+
+  .travel__swiper {
+    max-width: 980px;
+  }
+
+  .travel__card {
+    padding-top: 11rem;
+  }
+
+  .travel__img {
+    width: 200px;
+  }
+
+  .travel__info {
+    margin-bottom: 1.5rem;
+  }
+
+  .travel__description {
+    font-size: var(--normal-font-size);
+  }
+
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 3rem;
+  }
+
+  .explore__container {
+    grid-template-columns: 550px 480px;
+    column-gap: 2rem;
+  }
+
+  .explore__img {
+    width: 550px;
+  }
 }
