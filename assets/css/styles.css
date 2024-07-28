@@ -695,6 +695,10 @@ img {
     grid-template-columns: 350px;
     justify-content: center;
   }
+
+  .travel__card {
+    width: 265px;
+  }
 }
 
 /* For large devices */
