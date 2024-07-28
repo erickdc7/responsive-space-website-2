@@ -722,6 +722,10 @@ img {
   .explore__img {
     order: -1;
   }
+
+  .history__container {
+    grid-template-columns: repeat(2, 265px);
+  }
 }
 
 /* For large devices */
