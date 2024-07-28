@@ -681,6 +681,12 @@ img {
   .travel__container {
     padding-inline: 1rem;
   }
+
+  .explore__info {
+    flex-direction: column;
+    row-gap: 1rem;
+    text-align: center;
+  }
 }
 
 /* For medium devices */
