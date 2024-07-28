@@ -752,4 +752,8 @@ img {
   .section {
     padding-block: 7rem 2rem;
   }
+
+  .section__title {
+    margin-bottom: 3rem;
+  }
 }
