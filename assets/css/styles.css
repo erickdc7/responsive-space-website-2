@@ -709,7 +709,9 @@ img {
     align-items: center;
   }
 
-  .home__data {
+  .home__data,
+  .explore__data .section__title,
+  .explore__description {
     text-align: initial;
   }
 }
