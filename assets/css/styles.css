@@ -850,4 +850,8 @@ img {
   .explore__img {
     width: 550px;
   }
+
+  .explore__data .section__title {
+    margin-bottom: 1.5rem;
+  }
 }
