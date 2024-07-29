@@ -892,4 +892,8 @@ img {
   .footer__links {
     column-gap: 4rem;
   }
+
+  .footer__social {
+    column-gap: 1.5rem;
+  }
 }
