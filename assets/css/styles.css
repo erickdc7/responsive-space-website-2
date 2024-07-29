@@ -878,4 +878,10 @@ img {
     width: 500px;
     left: -15rem;
   }
+
+  .history__planet-2 {
+    width: 300px;
+    right: -8rem;
+    bottom: 10rem;
+  }
 }
