@@ -896,4 +896,9 @@ img {
   .footer__social {
     column-gap: 1.5rem;
   }
+
+  .footer__planet-1 {
+    width: 400px;
+    bottom: -12rem;
+  }
 }
