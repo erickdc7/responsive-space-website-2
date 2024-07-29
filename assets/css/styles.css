@@ -873,4 +873,9 @@ img {
     width: 200px;
     margin-bottom: 1rem;
   }
+
+  .history__planet-1 {
+    width: 500px;
+    left: -15rem;
+  }
 }
