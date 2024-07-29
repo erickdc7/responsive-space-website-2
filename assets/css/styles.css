@@ -858,4 +858,9 @@ img {
   .explore__description {
     margin-bottom: 3rem;
   }
+
+  .explore__planet {
+    width: 100px;
+    right: -4rem;
+  }
 }
