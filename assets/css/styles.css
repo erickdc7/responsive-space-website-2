@@ -905,4 +905,8 @@ img {
   .footer__planet-2 {
     width: 150px;
   }
+
+  .scrollup {
+    right: 3rem;
+  }
 }
