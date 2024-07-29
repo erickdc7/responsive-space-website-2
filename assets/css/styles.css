@@ -901,4 +901,8 @@ img {
     width: 400px;
     bottom: -12rem;
   }
+
+  .footer__planet-2 {
+    width: 150px;
+  }
 }
