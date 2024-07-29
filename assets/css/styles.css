@@ -863,4 +863,9 @@ img {
     width: 100px;
     right: -4rem;
   }
+
+  .history__container {
+    grid-template-columns: repeat(3, 265px);
+    column-gap: 5rem;
+  }
 }
