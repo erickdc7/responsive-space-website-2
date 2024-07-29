@@ -884,4 +884,8 @@ img {
     right: -8rem;
     bottom: 10rem;
   }
+
+  .footer__container {
+    padding-block: 4rem 3rem;
+  }
 }
