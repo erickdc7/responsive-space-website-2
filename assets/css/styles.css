@@ -888,4 +888,8 @@ img {
   .footer__container {
     padding-block: 4rem 3rem;
   }
+
+  .footer__links {
+    column-gap: 4rem;
+  }
 }
