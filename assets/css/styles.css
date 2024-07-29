@@ -854,4 +854,8 @@ img {
   .explore__data .section__title {
     margin-bottom: 1.5rem;
   }
+
+  .explore__description {
+    margin-bottom: 3rem;
+  }
 }
